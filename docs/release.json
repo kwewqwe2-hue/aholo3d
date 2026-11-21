@@ -1,0 +1,293 @@
+{
+  "title": "牛逼外卖 · 第一天",
+  "version": "v0.3.0",
+  "entry": "https://kwewqwe2-hue.github.io/aholo3d/",
+  "offlineSHA256": "05f11ef80c5f6cdfd4f1997b1cf73afc3db7e8a8f14ee0e093b8d815348d2d4c",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/banyan-spray-ChxplRlx.webp",
+      "bytes": 135246,
+      "sha256": "a0172f6b55847687aba758728a582dec2ca6bca7fcf1b28e8b7fd7e1d1eae68e"
+    },
+    {
+      "path": "assets/calico-BWGlgn_h.webp",
+      "bytes": 36532,
+      "sha256": "66ebec6401d01d085b103ce015d372d0f60e7f6e84d874a0a352add5a76b4c37"
+    },
+    {
+      "path": "assets/courier-C-vHOike.glb",
+      "bytes": 2877700,
+      "sha256": "9790a5de358f05acd8e4bfc9822020f3aed8544f74fb534b218fe9a2f96ef181"
+    },
+    {
+      "path": "assets/courier-details-VwQWo1J3.webp",
+      "bytes": 86938,
+      "sha256": "7a0c5c2cde19f475e4b10d58c7338f8e54fdcc9487bfd1c52ee955e77cd306cc"
+    },
+    {
+      "path": "assets/courier-face-AiL0ZqDv.webp",
+      "bytes": 6824,
+      "sha256": "8b067786b9d694662ca8c82e52d78d127cb1d96cc754a259b58b733529a894d0"
+    },
+    {
+      "path": "assets/courier-jacket-Duso7uv_.webp",
+      "bytes": 44480,
+      "sha256": "f1134793cc95c73fa1fccea9142853277323c6be69f0bd2decec0f86f8830fc8"
+    },
+    {
+      "path": "assets/court-ball-DRns7wKW.webp",
+      "bytes": 91912,
+      "sha256": "c7ab64b781e559a25a559c69057cf51c8296cdefbaadc5719b9f90b94c44d850"
+    },
+    {
+      "path": "assets/court-ball-relief-DW9V3y4i.webp",
+      "bytes": 18528,
+      "sha256": "d2e17df5cf5e6bac33f1d1ef7297d59ba687d9fa19196d69833d50a3354148cc"
+    },
+    {
+      "path": "assets/courtyard-print-CnM7BxGx.webp",
+      "bytes": 376440,
+      "sha256": "731fed1c2fc854d861d1e651f15cdca5fc83bf56cf08a98b386943481899f551"
+    },
+    {
+      "path": "assets/enamel-DI3weivK.webp",
+      "bytes": 109350,
+      "sha256": "889ee6c86910be94040451a9840dbadb27505a8a87806a40238b469509ff5561"
+    },
+    {
+      "path": "assets/estate-overhead-BfL9NfI4.webp",
+      "bytes": 537652,
+      "sha256": "ddeec0db706f40b4836563e30f1ad54c1ed9ac27eeaacff1be6d41036c4b623e"
+    },
+    {
+      "path": "assets/fever_tree_bark-color-CWorcxcX.webp",
+      "bytes": 147394,
+      "sha256": "e213ad0bf4429713108a5fb64c5b896877bfd4029191b7182452e637c2184388"
+    },
+    {
+      "path": "assets/fever_tree_bark-normal-CVWjhXPF.webp",
+      "bytes": 252706,
+      "sha256": "2e381ef165ebf673ea20919aad0e86936410eb8087dfa0958c00abbf3cf8b450"
+    },
+    {
+      "path": "assets/fever_tree_bark-roughness-BbPuygga.webp",
+      "bytes": 10804,
+      "sha256": "0ebef9d72e31dcec8accdd46b980887c7600ea8c5a5bec34f7ece14e89635dd6"
+    },
+    {
+      "path": "assets/flat-J4lbrjIH.glb",
+      "bytes": 915012,
+      "sha256": "66f992d4b3e00b6a15767f562fb7d80b35e369b39a685358a464f63683732885"
+    },
+    {
+      "path": "assets/gate-radiance-BkqpMHPD.webp",
+      "bytes": 55576,
+      "sha256": "a850c3456472492cecea133e25f94bfe0cf3b0e1a57c9664ea42c6e2a411cb58"
+    },
+    {
+      "path": "assets/guard-alert-l2CCcvcA.mp3",
+      "bytes": 18284,
+      "sha256": "482aa42ca64a78e611704f5fc5f0d1c7fd9a5554873b95de7f1edee4d0518826"
+    },
+    {
+      "path": "assets/half-wall-mwBwEZPv.webp",
+      "bytes": 20078,
+      "sha256": "86ff90162bd6fd8a63963bb41e496af079f1349144394857e559a603e05f2ef0"
+    },
+    {
+      "path": "assets/hands-mdrm0Y7c.webp",
+      "bytes": 5542,
+      "sha256": "fc7368ce8abe328ea84580b349581d1cc5a1c0f41a80d9c2ef1c28ac749105ea"
+    },
+    {
+      "path": "assets/index-CXnpVYXo.css",
+      "bytes": 41893,
+      "sha256": "9475dc11bb4ef456b11552d533f02e321d138ad32e6eec4258589306c4083fb7"
+    },
+    {
+      "path": "assets/index-wRKjezqx.js",
+      "bytes": 128605,
+      "sha256": "fc4c6def8422a01d80e78903649b26666e237577a89be81be5ba6f77117ebcb0"
+    },
+    {
+      "path": "assets/iron-patina-CVc0bGBk.webp",
+      "bytes": 10632,
+      "sha256": "5516a76c5022b5f460257c151f2a57c632b19ee449a28e5ee736750b559919d1"
+    },
+    {
+      "path": "assets/irradiance-SHO1XbyL.webp",
+      "bytes": 159150,
+      "sha256": "700c72417e6c156ca226d86b238186ffd3806311fb3c4532787c67c991957cdd"
+    },
+    {
+      "path": "assets/leaf-BbcudwL3.webp",
+      "bytes": 2520,
+      "sha256": "3c589e252d6df372ac5d7753a98ce3e0d22a6155c0c43abeee30e909328114eb"
+    },
+    {
+      "path": "assets/neighbours-CP57IFGJ.webp",
+      "bytes": 178100,
+      "sha256": "6b178d1ec93f6b1c7c44a4d6268d0e920281fcda2f24bbb7397bf68bd8473ecd"
+    },
+    {
+      "path": "assets/oak-BysVpALH.webp",
+      "bytes": 17340,
+      "sha256": "d7113605201a720fd5b1516d8d6eabc70ec32cc80ff91fa6de90536786e02de9"
+    },
+    {
+      "path": "assets/panel-surface-CTXa6jAN.webp",
+      "bytes": 83554,
+      "sha256": "8f9554dcbf482dfb2d0a2570ef7ab5f24c962885b1c5e0fc13de71a29c266a50"
+    },
+    {
+      "path": "assets/panels-C8ovPVe8.webp",
+      "bytes": 55628,
+      "sha256": "b9d1cd6d716e41505a9e1050c8227f8e5f68da8fb75371ef15601dee8c16753f"
+    },
+    {
+      "path": "assets/plaster-rh-DWv6RM_T.webp",
+      "bytes": 133104,
+      "sha256": "3490e758e8599fcb062310714215e3aa0079a90292c0b04f19a617f62f13bea2"
+    },
+    {
+      "path": "assets/plastered_wall-color-Dd5beRzd.webp",
+      "bytes": 182438,
+      "sha256": "368e4355fb05622ff00e820b3ebee7ed879aba2dc342d0d9cc24458947e22b14"
+    },
+    {
+      "path": "assets/plastered_wall-normal-Ct2qsm90.webp",
+      "bytes": 1160914,
+      "sha256": "c88eff59a229ee4fdc190e21d0ab679a1badcc02afd91c824c9623756dd0c1c7"
+    },
+    {
+      "path": "assets/plastered_wall-roughness-ITuP8uUW.webp",
+      "bytes": 14300,
+      "sha256": "d92279b64c56c0f32abd1cc17d3be8cf9c9d15609483c8d52247b5c7e4af14c2"
+    },
+    {
+      "path": "assets/rectangular_paving-color-0wZOqObu.webp",
+      "bytes": 173266,
+      "sha256": "87b977446d6221c71db05545e19ac854305aef607fd7af58985907eac014234c"
+    },
+    {
+      "path": "assets/rectangular_paving-normal-BjooKM6F.webp",
+      "bytes": 583928,
+      "sha256": "db4d54e0903aa3582ee0bbd44036ec9b10b98f85eea17c6a77ea949cb38bfe56"
+    },
+    {
+      "path": "assets/rectangular_paving-roughness-DLvY7e_s.webp",
+      "bytes": 507814,
+      "sha256": "dfa655edd5b84e9fbc6cc5067105b61547fc8caa4a3c50813016879d9ea565e4"
+    },
+    {
+      "path": "assets/resident-Bz8k8gSF.webp",
+      "bytes": 50500,
+      "sha256": "391753e9e46025ea76ba8018b9898e184259b2d5912b3da2733cb7fbd0f95f52"
+    },
+    {
+      "path": "assets/scene-Bx8NECJL.js",
+      "bytes": 360566,
+      "sha256": "024e3d5d6ee23094746e80173fdcd145c84d77b282d769cefe21adaa11aae235"
+    },
+    {
+      "path": "assets/scooter-DLiWJxNv.glb",
+      "bytes": 1746968,
+      "sha256": "d1968940853d4dcc6a0faac68cc6d4c076effc2f90df10014d9d09f7fdb1ac2e"
+    },
+    {
+      "path": "assets/shop-shelves-B0jUzvKF.webp",
+      "bytes": 332664,
+      "sha256": "0774f555415fd53e4baaa34e08bf75a3cf04c4016efbf2c27cd26eedea244276"
+    },
+    {
+      "path": "assets/signwriter-_z1xgS9G.webp",
+      "bytes": 202298,
+      "sha256": "bbde766c5075c4a54eba20d6b286abac34840316e1b45f9669d2c21268a77aea"
+    },
+    {
+      "path": "assets/slat-color-BnXU5UtZ.webp",
+      "bytes": 51922,
+      "sha256": "8c55f28f3d72f28e2e67a932f661eb667601a707cbf441a175952b2fac84893b"
+    },
+    {
+      "path": "assets/slat-normal-B65jcasd.webp",
+      "bytes": 111984,
+      "sha256": "580a437fda88884b58c069db6261b1078bc24c6b73bf579d59fde0f6a870e8c9"
+    },
+    {
+      "path": "assets/slat-roughness-HLolAGMf.webp",
+      "bytes": 3574,
+      "sha256": "f231245ada4a1a8b996e29c742057b0db19f090209a26b5d973fa1237de8181e"
+    },
+    {
+      "path": "assets/terrazzo-D5VyrFcr.webp",
+      "bytes": 388376,
+      "sha256": "dfa5b94b5bf74d7cacbc42452caca36484fceb91c893238138586f9c2c34e26f"
+    },
+    {
+      "path": "assets/terrazzo-rh-CC3NmP2f.webp",
+      "bytes": 327552,
+      "sha256": "61f7864966627bcf0a42767a585633158977f3c1df93e28e8be943a70ef5f37a"
+    },
+    {
+      "path": "assets/three-core-SISKfBKR.js",
+      "bytes": 266202,
+      "sha256": "c9db4c5c36b0abb6d364cdc9699bb2765452d9ee4ecc0d0a28db26771fbd2c3a"
+    },
+    {
+      "path": "assets/three-renderer-NvU3BbcZ.js",
+      "bytes": 400714,
+      "sha256": "52ab66b244be677643be889d9636948095ab5ee9917bbf8874f48af59dc2df6c"
+    },
+    {
+      "path": "assets/tile-DHnBPBo7.webp",
+      "bytes": 18726,
+      "sha256": "40533dd695668df5c3f0279915d7916679ed631210f4ffca70ea758f3e02d79a"
+    },
+    {
+      "path": "assets/window-bays-Bwd8K06V.webp",
+      "bytes": 482320,
+      "sha256": "9f7a37b470e5223ea85ead6a972b12d0438728fdc59934a208e4f165f8c1a751"
+    },
+    {
+      "path": "assets/worn-brick-color-S_Izr1zH.webp",
+      "bytes": 357062,
+      "sha256": "3d8ad401dd6d7571780161ea021e015acb98883abc90f47e037c02dfa243445f"
+    },
+    {
+      "path": "assets/worn-brick-normal-B_jmvi0v.webp",
+      "bytes": 301392,
+      "sha256": "5b39aff8db514d12e814620cf794cd08eea065aae932620cfea87f91fa9e1608"
+    },
+    {
+      "path": "assets/worn-brick-roughness-BkNbushR.webp",
+      "bytes": 18110,
+      "sha256": "f0ce204178a6e2ddbea521a19f42323f4a75530f8a63b2f840abb98974663484"
+    },
+    {
+      "path": "assets/worn_asphalt-color-BMuLf8YK.webp",
+      "bytes": 769906,
+      "sha256": "105688c50603f016748d346b6c12efaa2e53ca079c63da68ac1d663458593230"
+    },
+    {
+      "path": "assets/worn_asphalt-normal-BapNytMg.webp",
+      "bytes": 1815600,
+      "sha256": "e1e8a132f32ce58f765ad8d2e5d1e4078f2398cd7558c864578384e807874344"
+    },
+    {
+      "path": "assets/worn_asphalt-roughness-DX2bAKGY.webp",
+      "bytes": 40886,
+      "sha256": "3aca81110910167c850c6ae35aae90b08bbdc70b9589c43fc85230780eddcaf4"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1644,
+      "sha256": "9bbec0a98a60c15295090b11edd0875ac90a12ed426463e84dcc0a0d73968b58"
+    }
+  ]
+}

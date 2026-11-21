@@ -1,0 +1,17 @@
+* text=auto
+*.md text eol=lf
+# Keep the tested bytes of the game inputs and the published web files on every checkout.
+game/src/** -text
+game/trial/** -text
+game/index.html -text
+game/package-lock.json -text
+game/vite.config.js -text
+docs/** -text
+*.glb binary
+*.blend binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.mp3 binary
+*.mp4 binary
+*.pdf binary
