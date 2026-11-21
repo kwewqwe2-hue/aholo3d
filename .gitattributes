@@ -4,9 +4,9 @@
 game/src/** -text
 game/trial/** -text
 game/index.html -text
-game/package-lock.json -text
+game/package-lock.json -text linguist-generated=true
 game/vite.config.js -text
-docs/** -text
+docs/** -text linguist-generated=true
 *.glb binary
 *.blend binary
 *.png binary
