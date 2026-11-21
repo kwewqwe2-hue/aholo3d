@@ -1,0 +1,26 @@
+{
+  "slats": {
+    "page": "https://polyhaven.com/a/brown_planks_03",
+    "author": "Rob Tuytel",
+    "license": "CC0-1.0",
+    "crop": "Single board. Matching crop and tangent rotation on the three channels.",
+    "channels": {
+      "color": {
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_planks_03/brown_planks_03_diff_2k.jpg",
+        "md5": "6b571a7ad07c745b34a1d93cb793a075",
+        "file": "slat-color.webp"
+      },
+      "normal": {
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/brown_planks_03/brown_planks_03_nor_gl_2k.png",
+        "md5": "63a01acd63a5bbc299cdb151f3e2e2b9",
+        "file": "slat-normal.webp"
+      },
+      "roughness": {
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/brown_planks_03/brown_planks_03_rough_2k.png",
+        "md5": "c7c6d0a396a550d705a4f1ecb276f65d",
+        "file": "slat-roughness.webp"
+      }
+    }
+  },
+  "printAndBall": "Original courtyard print, woven patterns and ball surface."
+}

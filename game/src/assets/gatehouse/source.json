@@ -1,0 +1,46 @@
+{
+  "asset": "Worn Brick Wall",
+  "author": "Amal Kumar",
+  "meters": [
+    2,
+    2
+  ],
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "page": "https://polyhaven.com/a/worn_brick_wall",
+  "maps": [
+    {
+      "role": "color",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/worn_brick_wall/worn_brick_wall_diff_1k.jpg",
+      "sourceMD5": "17f8d2555ab15093c27e08a5f12397ac",
+      "file": "worn-brick-color.webp",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "3d8ad401dd6d7571780161ea021e015acb98883abc90f47e037c02dfa243445f"
+    },
+    {
+      "role": "normal",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/worn_brick_wall/worn_brick_wall_nor_gl_1k.png",
+      "sourceMD5": "6ccefa5ed8d6f7383a80d62e44c2f2cb",
+      "file": "worn-brick-normal.webp",
+      "size": [
+        768,
+        768
+      ],
+      "sha256": "5b39aff8db514d12e814620cf794cd08eea065aae932620cfea87f91fa9e1608"
+    },
+    {
+      "role": "roughness",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/worn_brick_wall/worn_brick_wall_rough_1k.jpg",
+      "sourceMD5": "d972b8b8d46fad12ecae93627fbb9bb5",
+      "file": "worn-brick-roughness.webp",
+      "size": [
+        384,
+        384
+      ],
+      "sha256": "f0ce204178a6e2ddbea521a19f42323f4a75530f8a63b2f840abb98974663484"
+    }
+  ]
+}

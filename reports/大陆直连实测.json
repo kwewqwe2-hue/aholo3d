@@ -1,0 +1,420 @@
+{
+  "site": "https://kwewqwe2-hue.github.io/aholo3d/",
+  "release": "v0.3.0",
+  "offlineSHA256": "4a500647f4c3ffdab284639b117d7bc8fdc9801b85e4f68673a21d1e3da8bc82",
+  "verifiedUTC": "2026-11-21T01:56:07.912646+00:00",
+  "method": "Globalping public HTTPS GET from mainland China. Asset responses are checked against release filenames, a content prefix and the expected Content-Length.",
+  "checks": [
+    {
+      "check": "游戏首页",
+      "path": "/aholo3d/",
+      "publicMeasurement": "https://api.globalping.io/v1/measurements/2C56RbRbYHDdYC8o400021Xfe",
+      "createdAt": "2026-11-21T01:54:41.699Z",
+      "checkedAt": "2026-11-21T01:54:42.865Z",
+      "nodes": [
+        {
+          "country": "CN",
+          "city": "Chongqing",
+          "asn": 4134,
+          "network": "Chinanet Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": "2048",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 497,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 4837,
+          "network": "CHINA UNICOM China169 Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": "2048",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 882,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Guangzhou",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "finished",
+          "http": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": "2048",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 936,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "发行版本",
+      "path": "/aholo3d/release.json",
+      "publicMeasurement": "https://api.globalping.io/v1/measurements/28RsYkhXsVvS5koUV00021Xfe",
+      "createdAt": "2026-11-21T01:54:41.706Z",
+      "checkedAt": "2026-11-21T01:54:42.753Z",
+      "nodes": [
+        {
+          "country": "CN",
+          "city": "Dongguan",
+          "asn": 4134,
+          "network": "Chinanet Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": "10161",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 361,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 4837,
+          "network": "CHINA UNICOM China169 Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": "10161",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 848,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Taishan",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": "10161",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 480,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "游戏程序",
+      "path": "/aholo3d/assets/index-CHaoKY32.js",
+      "publicMeasurement": "https://api.globalping.io/v1/measurements/2Ao7cqK2lR1NAVDlt00021Xfe",
+      "createdAt": "2026-11-21T01:54:45.474Z",
+      "checkedAt": "2026-11-21T01:54:46.483Z",
+      "nodes": [
+        {
+          "country": "CN",
+          "city": "Chongqing",
+          "asn": 4134,
+          "network": "Chinanet Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "128749",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 434,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 4837,
+          "network": "CHINA UNICOM China169 Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "128749",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 816,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Taishan",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "128749",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 496,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "三维引擎",
+      "path": "/aholo3d/assets/three-renderer-NvU3BbcZ.js",
+      "publicMeasurement": "https://api.globalping.io/v1/measurements/2uivfJDOnHhqSY7Ps00021Xfe",
+      "createdAt": "2026-11-21T01:54:45.681Z",
+      "checkedAt": "2026-11-21T01:55:00.940Z",
+      "nodes": [
+        {
+          "country": "CN",
+          "city": "Dongguan",
+          "asn": 4134,
+          "network": "Chinanet Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "400714",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 2300,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 4837,
+          "network": "CHINA UNICOM China169 Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "400714",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 614,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "failed",
+          "http": null,
+          "contentType": null,
+          "bytes": null,
+          "contentRange": null,
+          "contentMatches": false,
+          "milliseconds": 15000,
+          "ok": false
+        }
+      ]
+    },
+    {
+      "check": "三维模型",
+      "path": "/aholo3d/assets/courier-C-vHOike.glb",
+      "publicMeasurement": "https://api.globalping.io/v1/measurements/20ltopQxTdPxT1TzE00021Xfe",
+      "createdAt": "2026-11-21T01:54:49.324Z",
+      "checkedAt": "2026-11-21T01:54:51.076Z",
+      "nodes": [
+        {
+          "country": "CN",
+          "city": "Guangzhou",
+          "asn": 4134,
+          "network": "Chinanet Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "model/gltf-binary",
+          "bytes": "2877700",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 550,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 4837,
+          "network": "CHINA UNICOM China169 Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "model/gltf-binary",
+          "bytes": "2877700",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 632,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Beijing",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "finished",
+          "http": 200,
+          "contentType": "model/gltf-binary",
+          "bytes": "2877700",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 1456,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "手机地图",
+      "path": "/aholo3d/assets/estate-overhead-BfL9NfI4.webp",
+      "publicMeasurement": "https://api.globalping.io/v1/measurements/20lazoP8248rA86FA00021Xfe",
+      "createdAt": "2026-11-21T01:54:52.441Z",
+      "checkedAt": "2026-11-21T01:54:53.416Z",
+      "nodes": [
+        {
+          "country": "CN",
+          "city": "Yancheng",
+          "asn": 4134,
+          "network": "China Telecom",
+          "status": "finished",
+          "http": 200,
+          "contentType": "image/webp",
+          "bytes": "537652",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 557,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 4837,
+          "network": "CHINA UNICOM China169 Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "image/webp",
+          "bytes": "537652",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 618,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Beijing",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "finished",
+          "http": 200,
+          "contentType": "image/webp",
+          "bytes": "537652",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 489,
+          "ok": true
+        }
+      ]
+    }
+  ],
+  "retries": [
+    {
+      "check": "三维引擎",
+      "path": "/aholo3d/assets/three-renderer-NvU3BbcZ.js",
+      "publicMeasurement": "https://api.globalping.io/v1/measurements/2CD8gDZTkmg5im70700021Xff",
+      "createdAt": "2026-11-21T01:55:02.504Z",
+      "checkedAt": "2026-11-21T01:55:17.780Z",
+      "nodes": [
+        {
+          "country": "CN",
+          "city": "Yancheng",
+          "asn": 4134,
+          "network": "China Telecom",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "400714",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 566,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 4837,
+          "network": "CHINA UNICOM China169 Backbone",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "400714",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 490,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Kunming",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "failed",
+          "http": null,
+          "contentType": null,
+          "bytes": null,
+          "contentRange": null,
+          "contentMatches": false,
+          "milliseconds": 15001,
+          "ok": false
+        }
+      ]
+    },
+    {
+      "check": "三维引擎",
+      "path": "/aholo3d/assets/three-renderer-NvU3BbcZ.js",
+      "publicMeasurement": "https://api.globalping.io/v1/measurements/2HrhvS3il0DrVG2rc00021Xff",
+      "createdAt": "2026-11-21T01:55:52.177Z",
+      "checkedAt": "2026-11-21T01:56:07.437Z",
+      "nodes": [
+        {
+          "country": "CN",
+          "city": "Taishan",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "400714",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 741,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Beijing",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "finished",
+          "http": 200,
+          "contentType": "application/javascript; charset=utf-8",
+          "bytes": "400714",
+          "contentRange": null,
+          "contentMatches": true,
+          "milliseconds": 703,
+          "ok": true
+        },
+        {
+          "country": "CN",
+          "city": "Wuhan",
+          "asn": 9808,
+          "network": "China Mobile Communications Group",
+          "status": "failed",
+          "http": null,
+          "contentType": null,
+          "bytes": null,
+          "contentRange": null,
+          "contentMatches": false,
+          "milliseconds": 15000,
+          "ok": false
+        }
+      ]
+    }
+  ],
+  "allThreeNetworksForEachResource": true
+}

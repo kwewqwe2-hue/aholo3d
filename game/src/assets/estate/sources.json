@@ -1,0 +1,153 @@
+{
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "assets": [
+    {
+      "asset": "worn_asphalt",
+      "author": "Amal Kumar",
+      "page": "https://polyhaven.com/a/worn_asphalt",
+      "tileMetres": [
+        2,
+        2
+      ],
+      "maps": {
+        "color": {
+          "file": "worn_asphalt-color.webp",
+          "pixels": 1536,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/worn_asphalt/worn_asphalt_diff_2k.jpg",
+          "sourceMD5": "7bd15211eea2137bfcc6af510e17cd3d",
+          "webpSHA256": "105688c50603f016748d346b6c12efaa2e53ca079c63da68ac1d663458593230"
+        },
+        "normal": {
+          "file": "worn_asphalt-normal.webp",
+          "pixels": 1024,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/worn_asphalt/worn_asphalt_nor_gl_2k.png",
+          "sourceMD5": "9d1076709c0eeff13e015ba949e52319",
+          "webpSHA256": "e1e8a132f32ce58f765ad8d2e5d1e4078f2398cd7558c864578384e807874344"
+        },
+        "roughness": {
+          "file": "worn_asphalt-roughness.webp",
+          "pixels": 512,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/worn_asphalt/worn_asphalt_rough_2k.png",
+          "sourceMD5": "b847e70937d2078fa8f09458ef5d46d7",
+          "webpSHA256": "3aca81110910167c850c6ae35aae90b08bbdc70b9589c43fc85230780eddcaf4"
+        }
+      }
+    },
+    {
+      "asset": "plastered_wall",
+      "author": "Amal Kumar",
+      "page": "https://polyhaven.com/a/plastered_wall",
+      "tileMetres": [
+        2,
+        2
+      ],
+      "maps": {
+        "color": {
+          "file": "plastered_wall-color.webp",
+          "pixels": 1024,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/plastered_wall/plastered_wall_diff_2k.jpg",
+          "sourceMD5": "1cacf2ddbccc137473e717f23db200a9",
+          "webpSHA256": "368e4355fb05622ff00e820b3ebee7ed879aba2dc342d0d9cc24458947e22b14"
+        },
+        "normal": {
+          "file": "plastered_wall-normal.webp",
+          "pixels": 1024,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/plastered_wall/plastered_wall_nor_gl_2k.png",
+          "sourceMD5": "58cccc2c91c780313bc7efff8d5b1782",
+          "webpSHA256": "c88eff59a229ee4fdc190e21d0ab679a1badcc02afd91c824c9623756dd0c1c7"
+        },
+        "roughness": {
+          "file": "plastered_wall-roughness.webp",
+          "pixels": 512,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/plastered_wall/plastered_wall_rough_2k.png",
+          "sourceMD5": "395c0d8a7a095f4cf4518a0d45d49125",
+          "webpSHA256": "d92279b64c56c0f32abd1cc17d3be8cf9c9d15609483c8d52247b5c7e4af14c2"
+        }
+      }
+    },
+    {
+      "asset": "rectangular_paving",
+      "author": "Dimitrios Savva",
+      "page": "https://polyhaven.com/a/rectangular_paving",
+      "tileMetres": [
+        2,
+        2
+      ],
+      "maps": {
+        "color": {
+          "file": "rectangular_paving-color.webp",
+          "pixels": 1024,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rectangular_paving/rectangular_paving_diff_2k.jpg",
+          "sourceMD5": "7409956ecdd142ba125916b9c59c6f5e",
+          "webpSHA256": "87b977446d6221c71db05545e19ac854305aef607fd7af58985907eac014234c"
+        },
+        "normal": {
+          "file": "rectangular_paving-normal.webp",
+          "pixels": 1024,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rectangular_paving/rectangular_paving_nor_gl_2k.png",
+          "sourceMD5": "0412fe394d451c6e3f460235f186443a",
+          "webpSHA256": "db4d54e0903aa3582ee0bbd44036ec9b10b98f85eea17c6a77ea949cb38bfe56"
+        },
+        "roughness": {
+          "file": "rectangular_paving-roughness.webp",
+          "pixels": 768,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rectangular_paving/rectangular_paving_rough_2k.png",
+          "sourceMD5": "def346378165d903837811035a9dc9c6",
+          "webpSHA256": "dfa655edd5b84e9fbc6cc5067105b61547fc8caa4a3c50813016879d9ea565e4",
+          "channels": {
+            "r": "ambient occlusion",
+            "g": "roughness",
+            "b": "height"
+          },
+          "additionalSources": {
+            "AO": {
+              "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/rectangular_paving/rectangular_paving_ao_1k.png",
+              "md5": "32d457dc87bbe80dc7bbc6a937040eae",
+              "size": 1897866
+            },
+            "Displacement": {
+              "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/rectangular_paving/rectangular_paving_disp_1k.png",
+              "md5": "0ed8d253106bd74a8458ab630bf62f7c",
+              "size": 1577226
+            }
+          }
+        }
+      }
+    },
+    {
+      "asset": "fever_tree_bark",
+      "author": "Dimitrios Savva",
+      "page": "https://polyhaven.com/a/fever_tree_bark",
+      "tileMetres": [
+        1.36,
+        1.36
+      ],
+      "grade": "Warm grey low-chroma variant of the smooth bark scan for the hero trunk.",
+      "maps": {
+        "color": {
+          "file": "fever_tree_bark-color.webp",
+          "pixels": 768,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/fever_tree_bark/fever_tree_bark_diff_1k.jpg",
+          "sourceMD5": "f8c5e1d27f688471e4e298fd963cb81e",
+          "webpSHA256": "e213ad0bf4429713108a5fb64c5b896877bfd4029191b7182452e637c2184388"
+        },
+        "normal": {
+          "file": "fever_tree_bark-normal.webp",
+          "pixels": 512,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/fever_tree_bark/fever_tree_bark_nor_gl_1k.png",
+          "sourceMD5": "1b0ea9daa91bd1f6cab5fb143b462f95",
+          "webpSHA256": "2e381ef165ebf673ea20919aad0e86936410eb8087dfa0958c00abbf3cf8b450"
+        },
+        "roughness": {
+          "file": "fever_tree_bark-roughness.webp",
+          "pixels": 256,
+          "source": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/fever_tree_bark/fever_tree_bark_rough_1k.png",
+          "sourceMD5": "d7f545816a64102d3c11edd857764433",
+          "webpSHA256": "0ebef9d72e31dcec8accdd46b980887c7600ea8c5a5bec34f7ece14e89635dd6"
+        }
+      }
+    }
+  ],
+  "conversion": "OpenGL normals downsampled, renormalized and rounded to 6 bits per channel; lossless WebP. Roughness uses linear intensities."
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>牛逼外卖 · 第一天</title>
+<a id="first-day" href="../">进入牛逼外卖 · 第一天</a>
+<script>
+  const query = new URLSearchParams(location.search);
+  const localFile = location.protocol === 'file:';
+  const practice = query.get('practice') === '1';
+  const entry = practice
+    ? (localFile ? './dist/独立操控试驾.html' : './practice.html')
+    : (localFile ? '../dist/牛逼外卖-第一天.html' : '../');
+  const destination = new URL(entry, location.href);
+  query.delete('practice');
+  destination.search = query.toString();
+  document.getElementById('first-day').href = destination.href;
+  location.replace(destination.href);
+</script>
+</html>

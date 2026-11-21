@@ -1,0 +1,454 @@
+{
+  "version": "v0.3.0",
+  "entry": "https://kwewqwe2-hue.github.io/aholo3d/",
+  "sourceSHA256": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+  "offlineSHA256": "4a500647f4c3ffdab284639b117d7bc8fdc9801b85e4f68673a21d1e3da8bc82",
+  "pdfPages": 11,
+  "pdfSHA256": "72d832e8bebc6e0f8ef3c7a4aa9b4ebcc9e850a5b4672b1aef81e8992da5bca0",
+  "trailerSHA256": "1687994c576e49e36803655bdd189d9135209bd4d4452d02bcbc90dd9de8d802",
+  "localTests": {
+    "skilled": {
+      "mode": "skilled",
+      "started": "2026-11-21T01:48:01.899Z",
+      "finished": "2026-11-21T01:49:36.486Z",
+      "sourceAtStart": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+      "sourceAtEnd": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+      "passed": true,
+      "payment": {
+        "seconds": 53.433,
+        "limit": 65,
+        "base": 18,
+        "bonus": 6,
+        "fine": 0,
+        "net": 24,
+        "count": 1,
+        "stats": {
+          "attempts": 1
+        }
+      },
+      "timing": {
+        "route": "紫藤线",
+        "parked": 31.367,
+        "atEntrance": 34.667,
+        "at302": 50.767
+      },
+      "keyDowns": {
+        "KeyW": 111,
+        "KeyA": 42,
+        "KeyS": 68,
+        "KeyD": 61,
+        "Space": 4,
+        "ShiftLeft": 21
+      }
+    },
+    "mobile360": {
+      "mode": "mobile",
+      "started": "2026-11-21T01:47:56.914Z",
+      "finished": "2026-11-21T01:49:23.089Z",
+      "sourceAtStart": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+      "sourceAtEnd": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+      "passed": true,
+      "payment": {
+        "seconds": 50,
+        "limit": 65,
+        "base": 18,
+        "bonus": 6,
+        "fine": 0,
+        "net": 24,
+        "count": 1,
+        "stats": {
+          "attempts": 1
+        }
+      },
+      "timing": {
+        "route": "球场外圈",
+        "parked": 28.6,
+        "atEntrance": 32.817,
+        "at302": 47.767
+      },
+      "keyDowns": {
+        "[data-control=\"throttle\"]": 132,
+        "[data-control=\"left\"]": 93,
+        "[data-control=\"right\"]": 115,
+        "[data-control=\"brake\"]": 58,
+        "[data-control=\"handbrake\"]": 2,
+        "interact": 3,
+        "mount": 1,
+        "[data-stick]": 42,
+        "[data-control=\"run\"]": 21
+      }
+    },
+    "mobile390": {
+      "mode": "mobile",
+      "started": "2026-11-21T01:49:23.389Z",
+      "finished": "2026-11-21T01:50:53.523Z",
+      "sourceAtStart": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+      "sourceAtEnd": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+      "passed": true,
+      "payment": {
+        "seconds": 49.883,
+        "limit": 65,
+        "base": 18,
+        "bonus": 6,
+        "fine": 0,
+        "net": 24,
+        "count": 1,
+        "stats": {
+          "attempts": 1
+        }
+      },
+      "timing": {
+        "route": "球场外圈",
+        "parked": 28.5,
+        "atEntrance": 32.8,
+        "at302": 47.65
+      },
+      "keyDowns": {
+        "[data-control=\"throttle\"]": 106,
+        "[data-control=\"left\"]": 72,
+        "[data-control=\"right\"]": 116,
+        "[data-control=\"brake\"]": 56,
+        "[data-control=\"handbrake\"]": 2,
+        "interact": 3,
+        "mount": 1,
+        "[data-stick]": 42,
+        "[data-control=\"run\"]": 21
+      }
+    },
+    "offline": {
+      "started": "2026-11-21T01:51:13.540Z",
+      "finished": "2026-11-21T01:53:08.204Z",
+      "passed": true
+    },
+    "regression": {
+      "mode": "regression",
+      "started": "2026-11-21T01:49:26.466Z",
+      "finished": "2026-11-21T01:53:22.565Z",
+      "sourceAtStart": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+      "sourceAtEnd": "9d9c1d888d35070ba8eaf92605e6cff0119f3b3f61354bc4ea04294a59c2e566",
+      "passed": true,
+      "payment": {
+        "seconds": 92.65,
+        "limit": 65,
+        "base": 18,
+        "bonus": 0,
+        "fine": 6,
+        "net": 12,
+        "count": 1,
+        "stats": {
+          "attempts": 2
+        },
+        "emitted": {
+          "guardAlert": 2,
+          "delivered": 1,
+          "failed": 1
+        }
+      },
+      "timing": {
+        "route": "紫藤线",
+        "parked": 25.167,
+        "atEntrance": 34.583,
+        "at302": 90.883
+      },
+      "keyDowns": {
+        "KeyW": 173,
+        "KeyA": 105,
+        "KeyD": 127,
+        "KeyS": 112,
+        "Space": 4,
+        "ShiftLeft": 60
+      },
+      "checkpointNames": [
+        "漫画三页、第一天、确认接单",
+        "正式状态与场景相机",
+        "品牌餐罩与实际黄色血条",
+        "由广场骑到红棚取餐",
+        "门柱、喊停、上车、起追",
+        "品牌餐罩与实际黄色血条",
+        "品牌餐罩与实际黄色血条",
+        "实撞至零、单笔罚款、从取餐处重试",
+        "实车沿指定线路抵达楼前",
+        "停实车、F 下车、到尾箱取袋",
+        "停实车、F 下车、到尾箱取袋",
+        "携袋走过四段梯至302",
+        "下完四段梯回室外",
+        "二楼同址错门拒收",
+        "携袋走过四段梯至302",
+        "302敲门、递袋后单次入账",
+        "日结后重开第一格漫画"
+      ],
+      "failureAndRetry": {
+        "name": "实撞至零、单笔罚款、从取餐处重试",
+        "hp": [
+          91,
+          80,
+          69,
+          58,
+          47,
+          36,
+          25,
+          14,
+          3,
+          0
+        ],
+        "cash": -6,
+        "restored": {
+          "stage": "ride",
+          "mode": "bike",
+          "leg": "dropoff",
+          "cargo": "box",
+          "guard": "posted",
+          "motion": "none",
+          "floor": 0,
+          "position": [
+            109.802,
+            0,
+            -46.525,
+            6.115,
+            0
+          ],
+          "elapsed": 0.05,
+          "hp": 100
+        }
+      }
+    }
+  },
+  "hosted": {
+    "started": "2026-11-21T01:50:07.429Z",
+    "finished": "2026-11-21T01:51:44.797Z",
+    "trace": [
+      {
+        "id": "comic-1",
+        "step": "我的工位，先下班了。"
+      },
+      {
+        "id": "comic-2",
+        "step": "工牌换头盔。"
+      },
+      {
+        "id": "comic-3",
+        "step": "广场见，骑手上线。"
+      },
+      {
+        "id": "accepted",
+        "step": "确认接单，从广场出发",
+        "position": {
+          "x": 110.15999928474429,
+          "z": 69.8399935626986,
+          "heading": 3.141592653589793
+        },
+        "map": {
+          "x": 36.15625,
+          "y": 66.15625,
+          "w": 201.59375,
+          "h": 169.40625
+        }
+      },
+      {
+        "id": "pickup",
+        "step": "红棚停车取餐",
+        "position": {
+          "x": 109.87839834378568,
+          "z": -46.72179990125499,
+          "heading": -0.15447399586896912
+        },
+        "peakKph": 69,
+        "toast": "餐已装箱 · 向南行驶，右转穿过北门岗"
+      },
+      {
+        "id": "gate-alert",
+        "step": "北门岗保安喊停",
+        "text": "哎！送餐的，等一下！",
+        "position": {
+          "x": 83.07849553908923,
+          "z": -0.4921999974171172,
+          "heading": 1.4808262230565312
+        },
+        "speedKph": 65
+      },
+      {
+        "id": "dismount",
+        "step": "7 号楼停车并下车",
+        "parked": {
+          "x": -101.96009421507145,
+          "z": -58.15999753634146,
+          "heading": 3.119194403557789
+        },
+        "position": {
+          "x": -102.93089648362412,
+          "z": -57.73819884704753,
+          "heading": 3.119194403557782
+        }
+      },
+      {
+        "id": "bag",
+        "step": "从尾箱提袋",
+        "cargo": "手持餐袋",
+        "position": {
+          "x": -102.86989947677058,
+          "z": -57.33269654382482,
+          "heading": -1.6219536539645059
+        }
+      },
+      {
+        "id": "door-302",
+        "step": "上三层，到 302 门口",
+        "floors": [
+          1,
+          2,
+          3
+        ],
+        "interaction": "knock",
+        "location": "骑手导航\n3 楼\nM\n楼梯\n302\n2m\n北\n已到 302 门前"
+      },
+      {
+        "id": "receipt",
+        "step": "302 签收回执",
+        "floors": [
+          1,
+          2,
+          3
+        ],
+        "receipt": "牛逼外卖\n订单回执\n送到了！\n签收\n\n7 号楼 · 3 楼 302 室 · 准时送达\n\n本单实得\n¥24\n成功送达\n1 / 1 单\n基础工资\n¥18\n准时奖\n¥6\n累计罚款\n¥0\n当前余额\n¥24\n查看当天账单"
+      }
+    ],
+    "entry": "https://kwewqwe2-hue.github.io/aholo3d/",
+    "entrySHA256": "97d34e087875f08a4df9449dc96f79f20378961079aa27d1a1c49dd94463d741",
+    "trustedKeyDowns": {
+      "Enter": 8,
+      "KeyW": 105,
+      "KeyA": 40,
+      "KeyD": 46,
+      "KeyS": 55,
+      "Space": 2,
+      "KeyM": 2,
+      "KeyF": 1,
+      "ShiftLeft": 39
+    },
+    "sameOriginGETs": 58,
+    "passed": true
+  },
+  "mainland": {
+    "timeUTC": "2026-11-21T01:56:07.912646+00:00",
+    "carriers": [
+      "中国电信",
+      "中国联通",
+      "中国移动"
+    ],
+    "file": "大陆直连实测.json"
+  },
+  "assets": {
+    "rideJoints": 21,
+    "riderFile": "9790a5de358f05acd8e4bfc9822020f3aed8544f74fb534b218fe9a2f96ef181",
+    "noBagWallOrLidHitFrames": true,
+    "gloveNearestVertexToStrapMillimetres": [
+      0.447054,
+      0.52487
+    ]
+  },
+  "weakNetwork": {
+    "browser": "157.0.8103.80",
+    "profiles": {
+      "weak": {
+        "latency": 180,
+        "downloadThroughput": 375000,
+        "uploadThroughput": 93750
+      },
+      "original": {
+        "latency": 80,
+        "downloadThroughput": 1000000,
+        "uploadThroughput": 250000
+      }
+    },
+    "verifiedCases": [
+      "fetchReset",
+      "truncatedBody",
+      "http408",
+      "http429",
+      "exhausted",
+      "invalidGlb",
+      "disposeFirstBody",
+      "disposeBackoff",
+      "disposeRetryBody",
+      "retryDeadline",
+      "inline",
+      "inlineInvalid"
+    ],
+    "courierRequestsAfter503": [
+      503,
+      200
+    ],
+    "recoveredJoints": 21
+  },
+  "legacyTwoOrders": {
+    "totalsCompletedEarnSpentBalance": [
+      2,
+      50,
+      0,
+      50
+    ]
+  },
+  "gameplayRegressions": {
+    "keyboard": {
+      "beforeReleasingWWithCtrlKph": 14,
+      "afterReleaseKph": 12,
+      "beforeReleasingWWithUpHeldKph": 13,
+      "afterKeepingUpHeldKph": 24,
+      "walkerDriftAfterReleaseMeters": 0
+    },
+    "pickupNavigation": {
+      "actualDistanceToParkedBikeMeters": 9.644,
+      "shownReturnMeters": 10,
+      "shownMetersToReachableLoadingSpot": 1,
+      "actualMetersFromShopAfterReparking": 2.385,
+      "loadedOnFoot": true,
+      "phoneCaptions": [
+        {
+          "targetId": "bike",
+          "text": "外卖车 · 骑回红棚 · 10 米",
+          "screenshot": "../media/screenshots/return-to-bike.jpg"
+        },
+        {
+          "targetId": "loadBox",
+          "text": "红棚烧腊 · 尾箱装餐 · 1 米",
+          "screenshot": "../media/screenshots/load-box.jpg"
+        }
+      ]
+    },
+    "planter": {
+      "classification": "车尾顶住花架时可用 W+A 驶离，停车取袋后完成 302 签收。",
+      "originalRegressionPassed": true,
+      "escapeInput": "W+A",
+      "recoveryApproachOffsetMeters": 7,
+      "contactPositionXZ": [
+        -96.169,
+        -56.973
+      ],
+      "escapeDistanceThresholdMeters": 1.65,
+      "escapeSeconds": 0.783,
+      "continuedReceiptCount": 1,
+      "continuedReceiptYuan": 24,
+      "walkingSideSteps": 0
+    },
+    "retryBeforePickup": {
+      "failedCashYuan": -6,
+      "restoredHp": 100,
+      "restoredCargo": "空箱",
+      "distanceFromSquareMeters": 0,
+      "speedAfterRetryMetersPerSecond": 0,
+      "retainedCashYuan": -6
+    },
+    "retryAfterPickup": {
+      "failedCashYuan": -6,
+      "restoredHp": 100,
+      "restoredCargo": "餐在尾箱",
+      "metersFromPickupCheckpoint": 0,
+      "lateDeliveryGameSeconds": 92.65,
+      "basePayYuan": 18,
+      "bonusYuan": 0,
+      "priorFineYuan": 6,
+      "dayNetYuan": 12,
+      "receiptCount": 1
+    }
+  }
+}

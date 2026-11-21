@@ -1,0 +1,15 @@
+node_modules/
+game/dist/
+game/dist-web/
+game/trial/dist/
+game/art/build/
+game/artifacts/
+game/qa/*.png
+game/trial/qa/*.png
+game/街区线路图.svg
+.vite/
+.env
+.env.*
+*.log
+__pycache__/
+.DS_Store

@@ -1,0 +1,225 @@
+{
+  "courier": {
+    "task": 8438124,
+    "source": "art/Lux3D/assets/courier-original/glb.glb",
+    "sourceBytes": 10752728,
+    "sourceSHA256": "651e3ba647ab129a0b3ff3d2f1034048c1d74f5170679b49c812e294d74844f7",
+    "sourceTriangles": 28636,
+    "product": "src/assets/aholo/courier.glb",
+    "bytes": 2877700,
+    "sha256": "9790a5de358f05acd8e4bfc9822020f3aed8544f74fb534b218fe9a2f96ef181",
+    "rigRefinement": {
+      "baseline": "art/Lux3D/assets/courier-rigged-baseline/glb.glb",
+      "baselineSHA256": "5436f606f4b67c2839b16de68bad87c4e8f5690cadb56c704a9c0bd93ed8ad07",
+      "blenderScript": "scripts/refine-courier-knees.py",
+      "soleProfile": "src/courier-sole-profile.js",
+      "correctives": ["KneecapR", "KneecapL"],
+      "reweightedVertices": 1195,
+      "affectedVertices": 1266
+    },
+    "textures": [
+      {
+        "role": "baseColor",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 721579
+      },
+      {
+        "role": "metallicRoughness",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          768,
+          768
+        ],
+        "bytes": 529718
+      },
+      {
+        "role": "underarmBaseColor",
+        "size": [
+          384,
+          512
+        ],
+        "bytes": 47592,
+        "source": "existing courier garment charts"
+      }
+    ],
+    "models": {
+      "CourierStanding": {
+        "vertices": 23649,
+        "triangles": 28636,
+        "min": [
+          -0.29658105969429016,
+          -0.8999999761581421,
+          -0.20397967100143433
+        ],
+        "max": [
+          0.29658105969429016,
+          0.8999999761581421,
+          0.20397967100143433
+        ]
+      },
+      "CourierHead": {
+        "vertices": 2520,
+        "triangles": 2837,
+        "min": [
+          -0.11571991443634033,
+          0.6377980709075928,
+          -0.12144440412521362
+        ],
+        "max": [
+          0.11266295611858368,
+          0.8999999761581421,
+          0.17170833051204681
+        ]
+      },
+      "CourierPerformance": {
+        "vertices": 29534,
+        "triangles": 38334,
+        "min": [
+          -0.29658105969429016,
+          -0.8999999761581421,
+          -0.20397967100143433
+        ],
+        "max": [
+          0.29658105969429016,
+          0.8999999761581421,
+          0.20397967100143433
+        ],
+        "joints": 21,
+        "maxInfluences": 4
+      }
+    },
+    "faceDetail": {
+      "reference": "art/reference/\u9a91\u624b\u4e0e\u9b3c\u706b-\u9a91\u59ff\u4e0e\u6b63\u80cc\u8bbe\u5b9a.png",
+      "sha256": "db803bfef8873d7afd32af3c2baaf30fc02fa1ebcaef00abe591050988aca31f",
+      "application": "front-facing skin texels in the supplied UV atlas"
+    }
+  },
+  "scooter": {
+    "task": 8438123,
+    "source": "art/Lux3D/assets/scooter-original/glb.glb",
+    "sourceBytes": 8584348,
+    "sourceSHA256": "6b903d31e734fe22d5bac1793f636e49dd6d30da977cabbc761c319d95406c75",
+    "sourceTriangles": 26770,
+    "product": "src/assets/aholo/scooter.glb",
+    "bytes": 1746968,
+    "sha256": "d1968940853d4dcc6a0faac68cc6d4c076effc2f90df10014d9d09f7fdb1ac2e",
+    "textures": [
+      {
+        "role": "baseColor",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1536,
+          1536
+        ],
+        "bytes": 393899
+      },
+      {
+        "role": "metallicRoughness",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 3927
+      }
+    ],
+    "models": {
+      "ScooterParked": {
+        "vertices": 24904,
+        "triangles": 26770,
+        "min": [
+          -0.8999999761581421,
+          -0.7331095933914185,
+          -0.4502016305923462
+        ],
+        "max": [
+          0.8999999761581421,
+          0.7331095933914185,
+          0.4502016305923462
+        ]
+      },
+      "ScooterChassis": {
+        "vertices": 14196,
+        "triangles": 15191,
+        "min": [
+          -0.23918145895004272,
+          0.15715470910072327,
+          -1.0816550254821777
+        ],
+        "max": [
+          0.23752349615097046,
+          0.978600025177002,
+          0.6703446507453918
+        ]
+      }
+    }
+  },
+  "flat": {
+    "task": 8438125,
+    "source": "art/Lux3D/assets/flat-original/glb.glb",
+    "sourceBytes": 8668144,
+    "sourceSHA256": "77f403edbb30cc2a15a3e248ab8d7017439aa595800ee881f69043695834da4c",
+    "sourceTriangles": 17878,
+    "product": "src/assets/aholo/flat.glb",
+    "bytes": 915012,
+    "sha256": "66f992d4b3e00b6a15767f562fb7d80b35e369b39a685358a464f63683732885",
+    "textures": [
+      {
+        "role": "baseColor",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1536,
+          1536
+        ],
+        "bytes": 482321
+      },
+      {
+        "role": "metallicRoughness",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 49568
+      }
+    ],
+    "models": {
+      "FlatModule": {
+        "vertices": 11976,
+        "triangles": 7687,
+        "min": [
+          -0.2336670160293579,
+          -0.32873791456222534,
+          -0.1859864443540573
+        ],
+        "max": [
+          0.22977803647518158,
+          0.32949206233024597,
+          0.18318414688110352
+        ]
+      }
+    }
+  }
+}

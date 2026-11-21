@@ -1,0 +1,26 @@
+{
+  "created": "2026-11-20",
+  "usage": "本作住宅窗格与榕树枝叶的原创贴图。图集用于实际三维窗框与树冠几何。",
+  "assets": [
+    {
+      "file": "window-bays.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "layout": "3 columns x 2 rows",
+      "sha256": "9f7a37b470e5223ea85ead6a972b12d0438728fdc59934a208e4f165f8c1a751",
+      "prompt": "A production-ready photographic PBR base-color TEXTURE ATLAS exactly 3 columns by 2 rows, a continuous precisely aligned rectangular image for UV mapping separate planes in a modern 3D game. Ratio 3:2. Six independent front-on rectangular weathered residential window assemblies of an ordinary Chinese 1980s-1990s apartment building. Each texture tile fills precisely ONE equally sized square cell with the same boundaries, no gutters. Tight orthographic elevation from dead straight ahead, no horizon, no perspective convergence, no architectural scene or room outside the window, no labels or typography. The window opening occupies 92% of each tile with a very narrow grey-cement reveal at the edge, dark patinated silver/teal aluminum mullions. Windows slightly wider than tall in real world, rendered across full cell for UV scaling. Six distinct panes of lived-in life: one partially open sliding window and dusty green/cream curtains, one simple black security grill with a red clay plant and a towel pushed to one side, one warm ochre interior with translucent patterned curtains and small desk, one cloudy blue-green glazing with faint blurry tree reflection, one muted salmon curtain with a modest hanging garment and narrow muntins, one dirty cream shutter partly open beside deep cool glass. Real chipped paint, subtle dust and streaks at edges, slight depth at sash, no heavy cast shadows. Diffuse overcast daylight for a mostly de-lit moderately bright albedo map. Crisp photographic surface detail, convincing natural colours, real lens/wood/metal differences. No people, no branded signage, no huge balconies protruding, no text, no decorative grid lines (the six images just meet seamlessly at cell boundaries). High-resolution clean material source, not a game screenshot or illustration."
+    },
+    {
+      "file": "banyan-spray.webp",
+      "dimensions": [
+        510,
+        680
+      ],
+      "alpha": true,
+      "sha256": "a0172f6b55847687aba758728a582dec2ca6bca7fcf1b28e8b7fd7e1d1eae68e",
+      "prompt": "Create ONE photographic game vegetation texture cutout on a genuinely transparent background with clean alpha between leaves. Portrait-ish 3:4 canvas. A small airy branch silhouette of a Chinese banyan (Ficus microcarpa), a single woody olive-brown central twig branching up diagonally and into five asymmetric smaller offshoots, carrying around 30–45 individually recognizable oval pointed leaves. The leafy spray makes a naturally untidy, irregular silhouette that fills 93% of the canvas (broadest in the upper-middle), stem protrudes at lower center, leaf tips not cropped. Some leaves overlap in little clusters; leave many natural holes of transparent air through the branch, including asymmetrical gaps rather than a solid triangle. Photographic, botanically real leaf surface with delicate midribs and slightly curling edges, varied olive-green mature leaves and yellow-green new growth. Broad diffuse light, neutral green-to-olive coloration and naturally brighter thin leaf tips, no hard shadow from a particular sun direction baked in. Clean cutout, no white fringe, no floor, no background, no black shadow around alpha, no container, no text. A texture card for a physically modeled branching tree in a high-quality realistic Chinese residential courtyard."
+    }
+  ]
+}

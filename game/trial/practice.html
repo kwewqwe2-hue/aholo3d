@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#252c28"><title>牛逼外卖 · 球场试驾</title>
+</head>
+<body>
+  <canvas id="trial-city" aria-label="第三人称住宅区摩托试驾"></canvas>
+  <main id="cockpit">
+    <header class="placard"><span class="brand">牛逼外卖</span><div><small id="order-pay">牛角里 · 配送单</small><strong id="objective">红棚店 · 已取餐</strong></div></header>
+    <aside class="meter"><strong id="speed">0</strong><small>公里 / 时</small><label class="trial-health"><span id="condition">车况 100</span><progress id="health-fill" aria-label="车况" value="100" max="100"></progress></label></aside>
+    <div id="pace" hidden aria-live="polite"></div>
+    <div id="notice" hidden aria-live="polite"></div>
+    <footer class="controls"><span><kbd>W S</kbd>油门 / 刹车</span><span><kbd>A D</kbd>压弯</span><span><kbd>Shift</kbd>加速</span><span><kbd>Q E</kbd>左 / 右踢开</span><span><kbd>R</kbd>重试</span><button id="pause" type="button">暂停 P</button><button id="mute" type="button">声音 V</button></footer>
+    <div id="touch"><div><button data-drive="left">←</button><button data-drive="right">→</button><button data-pulse="left">左踢</button><button data-pulse="right">右踢</button></div><div><button data-drive="brake">刹</button><button data-drive="throttle">油</button><button data-pulse="boost">加速</button><button data-pulse="deliver">交付</button></div></div>
+    <section id="overlay"><div class="paper" role="dialog" aria-labelledby="title"><div class="ticket"><span>牛 逼 外 卖</span><span id="ticket">骑手端 / 试驾签</span></div><p id="eyebrow">已取餐 · 北门岗</p><h1 id="title">球场试驾</h1><p id="detail">穿过门岗，在球场大弯选自己的线。花架路与外圈都通往亮灯的楼门。</p><div id="bill" hidden></div><button type="button" id="primary">上车　↗</button><small id="footnote">W 给油，A / D 转向。普通弯不需要手刹。</small></div></section>
+    <p id="fault" role="alert" hidden></p>
+  </main>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
