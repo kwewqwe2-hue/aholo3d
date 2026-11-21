@@ -2,7 +2,7 @@
   "title": "牛逼外卖 · 第一天",
   "version": "v0.3.0",
   "entry": "https://kwewqwe2-hue.github.io/aholo3d/",
-  "offlineSHA256": "05f11ef80c5f6cdfd4f1997b1cf73afc3db7e8a8f14ee0e093b8d815348d2d4c",
+  "offlineSHA256": "d1270ec6228e5c969e4d37808f84101dfb32a602b8b4ca8ad24f1ec27abc6221",
   "files": [
     {
       "path": ".nojekyll",
@@ -105,14 +105,14 @@
       "sha256": "fc7368ce8abe328ea84580b349581d1cc5a1c0f41a80d9c2ef1c28ac749105ea"
     },
     {
+      "path": "assets/index-bt-sdAzz.js",
+      "bytes": 128605,
+      "sha256": "ab33ef624fa140602eada88b598a779882cd71f9ebae10de4c9f40f74219f6a7"
+    },
+    {
       "path": "assets/index-CXnpVYXo.css",
       "bytes": 41893,
       "sha256": "9475dc11bb4ef456b11552d533f02e321d138ad32e6eec4258589306c4083fb7"
-    },
-    {
-      "path": "assets/index-wRKjezqx.js",
-      "bytes": 128605,
-      "sha256": "fc4c6def8422a01d80e78903649b26666e237577a89be81be5ba6f77117ebcb0"
     },
     {
       "path": "assets/iron-patina-CVc0bGBk.webp",
@@ -190,9 +190,9 @@
       "sha256": "391753e9e46025ea76ba8018b9898e184259b2d5912b3da2733cb7fbd0f95f52"
     },
     {
-      "path": "assets/scene-Bx8NECJL.js",
-      "bytes": 360566,
-      "sha256": "024e3d5d6ee23094746e80173fdcd145c84d77b282d769cefe21adaa11aae235"
+      "path": "assets/scene-_pqczQd3.js",
+      "bytes": 362965,
+      "sha256": "500b1e26c312231d3cb999d3b7dc5ba8a7ae9424c473c3ac2cb911ddff305cce"
     },
     {
       "path": "assets/scooter-DLiWJxNv.glb",
@@ -286,8 +286,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 1644,
-      "sha256": "9bbec0a98a60c15295090b11edd0875ac90a12ed426463e84dcc0a0d73968b58"
+      "bytes": 2048,
+      "sha256": "a982211428efceca53b69f83985a8975b27e987dc437f890f625489b46eec1b5"
     }
   ]
 }
