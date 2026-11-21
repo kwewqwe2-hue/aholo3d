@@ -2,7 +2,7 @@
   "title": "牛逼外卖 · 第一天",
   "version": "v0.3.0",
   "entry": "https://kwewqwe2-hue.github.io/aholo3d/",
-  "offlineSHA256": "d1270ec6228e5c969e4d37808f84101dfb32a602b8b4ca8ad24f1ec27abc6221",
+  "offlineSHA256": "4a500647f4c3ffdab284639b117d7bc8fdc9801b85e4f68673a21d1e3da8bc82",
   "files": [
     {
       "path": ".nojekyll",
@@ -105,9 +105,9 @@
       "sha256": "fc7368ce8abe328ea84580b349581d1cc5a1c0f41a80d9c2ef1c28ac749105ea"
     },
     {
-      "path": "assets/index-bt-sdAzz.js",
-      "bytes": 128605,
-      "sha256": "ab33ef624fa140602eada88b598a779882cd71f9ebae10de4c9f40f74219f6a7"
+      "path": "assets/index-CHaoKY32.js",
+      "bytes": 128749,
+      "sha256": "e284efefc58ec1060306647c9b13cf2d53d379b9c1bdec1e372b09eed6e9d207"
     },
     {
       "path": "assets/index-CXnpVYXo.css",
@@ -287,7 +287,7 @@
     {
       "path": "index.html",
       "bytes": 2048,
-      "sha256": "a982211428efceca53b69f83985a8975b27e987dc437f890f625489b46eec1b5"
+      "sha256": "97d34e087875f08a4df9449dc96f79f20378961079aa27d1a1c49dd94463d741"
     }
   ]
 }

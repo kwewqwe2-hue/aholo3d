@@ -1005,6 +1005,8 @@ function createPhoneNavigation(course) {
 		const path = continuation.length ? current.concat(continuation.slice(1)) : current;
 		const meters = metersAlong(path);
 		let waypoint = collecting ? course.pickup.label + "取餐" : foot && view.cargo === "box" ? "去车后箱取袋" : "前往单元门";
+		const onFootPickup = collecting && foot && (target?.id === "bike" || target?.id === "loadBox");
+		if (onFootPickup) waypoint = target.label;
 		if (!foot && !collecting && view.passedGate) {
 			const viaOuter = path.some((p) => outerRoad.has(p.id) && !arborRoad.has(p.id));
 			const viaArbor = path.some((p) => arborRoad.has(p.id) && !outerRoad.has(p.id));
@@ -1022,7 +1024,12 @@ function createPhoneNavigation(course) {
 			icon: collecting || view.cargo === "box" && foot ? "bag" : "door",
 			text: view.interaction.label
 		};
-		else if (view.near && collecting) guide = {
+		else if (onFootPickup && target.id === "bike") {
+			if (view.canMount) guide = {
+				icon: "mount",
+				text: "上车，骑回红棚"
+			};
+		} else if (view.near && collecting) guide = {
 			icon: "bag",
 			text: foot ? "到车尾装餐" : Math.abs(actor.speed) > .5 ? "刹停取餐" : "取餐装箱"
 		};
@@ -1036,7 +1043,7 @@ function createPhoneNavigation(course) {
 		};
 		else if (meters <= 1.1) guide = {
 			icon: collecting ? "bag" : "flag",
-			text: collecting ? "到店取餐" : waypoint
+			text: collecting && !foot ? "到店取餐" : waypoint
 		};
 		return {
 			actor,
@@ -2619,7 +2626,7 @@ function createUI(root, district, action) {
 		showGuide(nav);
 		updateHealth(view);
 		set("target", target);
-		set("objective", collecting ? "到店取餐" : nav.waypoint);
+		set("objective", collecting && !foot ? "到店取餐" : nav.waypoint);
 		const time = remainingTime(view);
 		fields.timerFace.hidden = collecting;
 		fields.timerFace.classList.toggle("nb-time-low", time <= 8 && time > 0);
